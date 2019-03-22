@@ -1,0 +1,95 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>korišćenje css-a</title>
+<style type="text/css">
+<!--
+#natpis {
+	color: #FFF;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+
+
+#nav,a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: x-large;
+	color: #FFF;
+}
+a:active {
+    color: #000000;
+
+}
+#prikaz {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	color: #2A5F00;
+}
+body {
+	background-color: #FFF;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="1107" height="458" border="1" bordercolor="#2A5F00" cellspacing="0" cellpadding="5">
+  <tr>
+    <td width="4" rowspan="3" bgcolor="#559F00">&nbsp;</td>
+    <td height="90" colspan="2" align="center"  background="k2/slike/Background-Y-Repeat2.jpg" id="natpis">CSS - Cascading Style Sheets</td>
+    <td width="252" rowspan="2" align="center" bgcolor="#2A5F00"  ><span id="nav"><a href=http://www.w3schools.com/html/default.asp>html</a></span>
+      <p align="left"><a href=prvi_cas.html>osnove CSS-a </a>
+      <p align="center"><span id="nav"><a href="drugi_cas.html">korišćenje CSS-a</a></span>
+      <p align="right"><span id="nav"><a href="treci_cas.html">osobine</a></span>
+        
+        
+        
+    </td>
+  </tr>
+  <tr>
+    <td width="205" height="138" bgcolor="#2A5F00" ><a href="prva.html"><img src="k2/slike/css (1).png" alt="" width="164" height="86" /></a></td>
+    <td width="620"  height="138" background="k2/slike/Background-Y-Repeat2.jpg" id="natpis" align="center"> Drugi čas - <strong>Korišćenje CSS-a</strong></td>
+  </tr>
+  <tr>
+    <td height="201" colspan="2" valign="top" bgcolor="#FFFFFF"><div id="prikaz"><p>    </p>
+      <p><img src="k2/slike/css_reset.jpg" width="301" height="238" border="2"  align="right" />CSS se može koristiti unutar HTML-a na tri moguća načina:</p>
+      <ul type="disc">
+        <li><strong>UMETNUTI Inline CSS</strong>&nbsp;- Najjednostavniji i najmanje preporučljiv način       za upotrebu CSS-a je navođenje iskaza unutar STYLE atributa HTML elementa       koji želimo da menjamo. Ovako kreiran kod je nečitljiv i težak za       pronalaženje grešaka i izmene. Koristi se ako je potrebno na licu mesta (u       samom HTML-u) izmeniti neki već postojeći CSS stil ili zadati određeni       izgled bez kreiranja stila.</li>
+      </ul>
+      <p><strong>&lt;a href=&quot;http://www.yahoo.com&quot; style=&quot;color:  red;&quot;&gt;Crveni link za Yahoo&lt;/a&gt;</strong></p>
+      <ul type="disc">
+        <li><strong>INTERNI Embeded CSS</strong>&nbsp;- Bolji način od perthodnog s obzirom da odvaja       prikaz od sadržine. Ipak, stilovi se i ovde kreiraju unutar same HTML       stranice, s tim što su izdvojeni unutar STYLE taga unutar zaglavlja       stranice. Ovaj način koristimo ako nam trebaju stilovi za koje smo sigurni       da ćemo ih koristiti samo unutar te pojedine stranice.</li>
+      </ul>
+      <p>&lt;head&gt;<br />
+  &lt;style&gt;<br />
+        body<br />
+        {<br />
+        font-family: Comic Sans MS;<br />
+        background-color: #54FF9F;<br />
+        color:#ffffff;<br />
+        }<br />
+        div<br />
+        {background-color:#ffffff;<br />
+        color:#00ff00;<br />
+        }<br />
+  &lt;/style&gt;<br />
+  &lt;/head&gt;</p>
+      <ul type="disc">
+        <li><strong>External CSS</strong>&nbsp;- Izdvajanje definicija stilova u zaseban CSS       fajl je najpreporučljiviji način. Ne samo da se sadržina i prikaz odvajaju       u potpunosti, već se isti stilovi mogu koristiti na više različitih HTML       stranica.</li>
+      </ul>
+      <p>&lt;head&gt;<br />
+  &lt;link href=&quot;stil1.css&quot;  rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;<br />
+  &lt;/head&gt;</p>
+<p>&nbsp;</p>
+    </div></td>
+    <td width="252" valign="top" bgcolor="#2A5F00" ><p id="nav">linkovi:</p>
+    <p><a href="http://www.w3schools.com/css/default.asp"><img src="k2/slike/w3schools.png" width="154" height="115" /></a></p>
+    <a href="http://www.os-klinca-sela.skole.hr/kodoviboja.htm"><img src="k2/slike/boje.gif" width="245" height="370" /></a></td>
+  </tr>
+</table>
+</body>
+</html>

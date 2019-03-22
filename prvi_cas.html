@@ -1,0 +1,102 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>osnove CSS-a</title>
+<style type="text/css">
+<!--
+#natpis {
+	color: #FFF;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+
+
+#nav,a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: x-large;
+	color: #FFF;
+}
+a:active {
+    color: #000000;
+
+}
+#prikaz {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	color: #2A5F00;
+}
+body {
+	background-color: #FFF;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="1107" height="458" border="1" bordercolor="#2A5F00" cellspacing="0" cellpadding="5">
+  <tr>
+    <td width="4" rowspan="3" bgcolor="#559F00">&nbsp;</td>
+    <td height="90" colspan="2" align="center"  background="k2/slike/Background-Y-Repeat2.jpg" id="natpis">CSS - Cascading Style Sheets</td>
+    <td width="252" rowspan="2" align="center" bgcolor="#2A5F00"  ><span id="nav"><a href=http://www.w3schools.com/html/default.asp>html</a></span>
+      <p align="left"><a href=prvi_cas.html>osnove CSS-a </a>
+      <p align="center"><span id="nav"><a href="drugi_cas.html">korišćenje CSS-a</a></span>
+      <p align="right"><span id="nav"><a href="treci_cas.html">osobine</a></span>
+        
+        
+        
+    </td>
+  </tr>
+  <tr>
+    <td width="205" height="138" bgcolor="#2A5F00" ><a href="prva.html"><img src="k2/slike/css (1).png" alt="" width="164" height="86" /></a></td>
+    <td width="620"  height="138" background="k2/slike/Background-Y-Repeat2.jpg" id="natpis" align="center"> Prvi čas - Osnove CSS-a</td>
+  </tr>
+  <tr>
+    <td height="201" colspan="2" valign="top" bgcolor="#FFFFFF"><div id="prikaz"><p>    </p>
+      <p><img src="k2/slike/css_selector_declaration.png" width="423" height="227" align="right"/>Osnovna struktura css:<br />
+Selektor {<br />
+                Deklaracija1;<br />
+Deklaracija2;<br />
+}<br />
+Gde se svaka deklaracija sastoji od atributa (svojstva, osobina) i  vrednosti, a selektor je element koji opisujemo.</p>
+      <p ><br />
+        Deklaracija se piše u obliku: atribut:vrednost;<br />
+        Primer:<br />
+        H1{<br />
+        Color:#ff00ff;<br />
+        }<br />
+        Tekst u naslovu h1 će biti zadate boje.</p>
+      <p align="center" >&nbsp;</p>
+      <p>Postoje tri osnovne vrste selektora:</p>
+      <ul type="disc">
+        <li><strong>HTML selektori</strong>&nbsp;- predstavljaju nazive tagova koji se koriste u       HTML dokumentu i na koje će biti primenjeni. Npr. &quot;a&quot; selektor       se primenjuje na linkove, &quot;h1&quot; selektor na glavne naslove u       tekstu i sl.</li>
+        <li><strong>ID selektori</strong>&nbsp;- nazivi ovih selektora počinju TARABOM. Koriste       se ako je potrebno primeniti odrđeni stil na jedinstveni elemenat u HTML       dokumentu koji je obeležen određenim ID atributom. Npr.&nbsp;<strong>&quot;#prvipasus&quot;</strong>&nbsp;će       biti primenjen na recimo&nbsp;<strong>&lt;p id=&quot;prvipasus&quot;&gt;</strong>.       Podrazumeva se da je pasus sa ovom oznakom jedinstven na celoj strani.</li>
+        <li><strong>CLASS selektori</strong>&nbsp;- nazivi ovih stilova počinju TAČKOM. Koriste se       za kreiranje stilova koji se pozivaju u CLASS atributima HTML elemenata.       Npr. selektor&nbsp;<strong>&quot;.pasus&quot;</strong>&nbsp;se odnosi na svaki       elemenat koji je definisan kao npr.&nbsp;<strong>&lt;p       class=&quot;pasus&quot;&gt;</strong>.</li>
+      </ul>
+      <p>Određeni element se može identifikovati na stranici ako mu se dodeli  ime, a elementima sa imenom se mogu dodeljivati css pravila. Za dodelu imena u  css-u se mogu koristiti klase (class) i id.<br />
+        Klase se koriste ako više elemenata hoćemo da opišemo na isti način.  Klase se mogu koristiti više puta na jednoj html stranici.<br />
+        ID oznaka se može koristiti samo jednom na stranici. Id je jedinstven.<br />
+        Primeri:<br />
+        img<br />
+        {<br />
+        border:5px #880088 solid;<br />
+        width:200;<br />
+        height:200;<br />
+        }<br />
+        .rozipas<br />
+        {background-color:#FFB6C1; color:#FF69B4}<br />
+        #ljubicast<br />
+        {color:#D02090;}</p>
+      <p><em>U CSS-u važi pravilo da poslednje  podešavanje nekog atributa zamenjuje prethodno.</em></p>
+<p>&nbsp;</p>
+    </div></td>
+    <td width="252" valign="top" bgcolor="#2A5F00" ><p id="nav">linkovi:</p>
+    <p><a href="http://www.w3schools.com/css/default.asp"><img src="k2/slike/w3schools.png" width="154" height="115" /></a></p>
+    <a href="http://www.os-klinca-sela.skole.hr/kodoviboja.htm"><img src="k2/slike/boje.gif" width="245" height="370" /></a></td>
+  </tr>
+</table>
+</body>
+</html>
